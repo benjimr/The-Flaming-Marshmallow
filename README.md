@@ -1,84 +1,8 @@
-# The Flaming Marshmallow
-
-# ---MAIN GAME IS LOCATED IN TESTINGBRANCH---
-
-## INTRODUCTION
-
 A group project for DT228/2 OOP's Assignment 3 by Something Developers which includes Ben Ryan, Yit Chee Chin, Dylan Kirby and Patrick Malone. For this assignment we decided to make a game. We used Unreal Engine 4 as a development platform and did all programming in C++. All models used in the game are original and created using Blender. All sound effects are also original.
 
 ## GAME
 
 Endless survival horror between a lone marshmallow and a horde of chocolate enemies. The only goal is to survive. You must fight against the horde using any tools at your disposal which includes a targeting system that can be used to attack the enemies, various items scattered across the map to either revive health or boost your stats and a special flame attack that vastly increases your attacking power for a brief amount of time. Enemies will quickly surround you if you show even a hint of mercy, so eradicate the chocolate foes with brutal vengence.
-
-## WORK SPLIT
-
-### Ben Ryan
-
-Classes:
-- EnemyCharacter: Enemy Flames
-- Item: All of it
-- ItemSpawnLoc: All of it
-- Mallow: Player character movement (dashing, jumping etc)
-- MHUD: Made the HUD
-- TestGameMode: Item spawning, Possessing Mallow
-- UI_Controller: All of it
-
-Using Unreal Tools:
-- Widgets in Unreal: HUD, Death Menu, In Game Menu, Main Menu
-- Landscape (using landscape and foliage tool)
-- Map Design
-
-Modelling:
-- Bridge
-- Shrine
-
-### Dylan Kirby
-
-Classes:
-- Mallow: Triggering the sounds and the audio
-- TestGameMode: Implementing Items
-- EnemyCharacter: Enemy Character Assets
-
-Unreal Tools:
-- Map Design
-- Item Spawning
-- Audio Trigger
-
-Modelling:
-- Enemy Character 
-- One Story House
-- Two Story House
-- Lights
-- Fences
-
-Recording and editing the sounds used in the game
-
-### Patrick Malone
-
-Classes:
-- Enemy Character: Character movement, sensing, patroling
-- EnemyAI: All of it
-- BotTargetPoint
-- BotTargetPointSelection: All of it
-- Test Game mode: helped with targeting
-
-Unreal tools:
-- Blackboard
-- Behavior Tree 
-- Nav Mesh Bounds
-
-Modelling:
-- Rocks 
-- Trees
-- Marshmallow
-
-### Yit Chee Chin
-
-Classes:
-- Mallow: Targeting enemies, attacking
-- EnemyCharacter: Attacking
-- TargetPointer: Following targeted enemy
-
 
 ## CONTROLS
 
@@ -107,9 +31,6 @@ Classes:
 
 - HUD - The HUD displays to the player two abilities on offer, (dash and flames) aswell as the Health of the marshmallow. The Dash is an ability for the marshmallow to quikly dash in a certain direction, which then recharges over a short period of time to use again later. The flames ability gives the marshmallow a damage boost, and is used all at once. It then recharges and can only be used when it is fully recharged. Health can be reduced by damage taken frmo enemies, but can also be restored by pickups. 
 
-
-
-
 ## THE STORY
 
 Mallow, a young sweet from the marshmallow kingdom has lived his life knowing nothing but war. A long arduous war invloving the four great kingdoms of Candyland; Chocolate, Marshmallow, Ice and Jellies. Living on the border between the Marshmallow and Chocolate kingdom, Mallow's village had always expected the day that the chocolate would invade. They were a peaceful village that 
@@ -124,8 +45,8 @@ revenge on the Chocolate kingdom and end this war once and for all. Armed with t
 
 This game is but a snapshot of the trials that mallow must make.
 
-## YOUTUBE VIDEO
+## VIDEO
 
-https://www.youtube.com/watch?v=iefLxIiA9q8
+![Video Demonstration](https://www.youtube.com/watch?v=iefLxIiA9q8 "Video Demonstration")
 
 
